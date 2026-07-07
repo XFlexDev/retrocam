@@ -1,14 +1,13 @@
 name: RetroCam
 options:
   bundleIdPrefix: com.kreatix
-  xcodeVersion: "15.4"
 targets:
   RetroCam:
     type: application
     platform: iOS
     deploymentTarget: "15.0"
     sources:
-      - path: .
-        excludes:
-          - project.yml
-          - build.yml
+      - RetroCamApp.swift
+      - RetroCamView.swift
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
