@@ -1,6 +1,7 @@
 name: RetroCam
 options:
   bundleIdPrefix: com.kreatix
+  xcodeVersion: "15.4"
 targets:
   RetroCam:
     type: application
