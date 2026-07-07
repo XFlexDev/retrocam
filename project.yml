@@ -1,0 +1,13 @@
+name: RetroCam
+options:
+  bundleIdPrefix: com.kreatix
+targets:
+  RetroCam:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: .
+        excludes:
+          - project.yml
+          - build.yml
